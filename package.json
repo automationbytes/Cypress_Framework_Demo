@@ -1,0 +1,33 @@
+{
+  "name": "cypress-bdd-demo",
+  "version": "1.0.0",
+  "description": "To create a simple framework with cucumberjs",
+  "main": "index.js",
+  "scripts": {
+    "launchcypress": "cypress open",
+    "testcases": "cypress run --spec ./cypress/integration/*.feature --browser chrome --headed",
+    "finaltest": "npm run testcases && node cucumber-html-report.js || node cucumber-html-report.js"
+  },
+  "author": "Vignesh",
+  "license": "ISC",
+  "devDependencies": {
+    "@4tw/cypress-drag-drop": "^2.1.0",
+    "cypress": "^9.7.0",
+    "cypress-cucumber-preprocessor": "^4.3.1",
+    "cypress-file-upload": "^5.0.8",
+    "cypress-xpath": "^1.6.2",
+    "html-webpack-plugin": "^5.5.0",
+    "cucumberjs-playwright-reporter": "^1.0.8"
+  },
+  "dependencies": {
+    "cypress-downloadfile": "^1.2.2"
+  },
+  "cypress-cucumber-preprocessor": {
+    "cucumberJson": {
+      "generate": true,
+      "outputFolder": "cypress/cucumber-json",
+      "filePrefix": "",
+      "fileSuffix": ".cucumber"
+    }
+  }
+}

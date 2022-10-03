@@ -1,0 +1,562 @@
+{
+  "app": 0,
+  "customMetadata": false,
+  "customData": null,
+  "style": "style.css",
+  "useCDN": false,
+  "hideMetadata": false,
+  "displayReportTime": true,
+  "displayDuration": true,
+  "browser": 2,
+  "name": "",
+  "version": "version",
+  "time": "2022-10-03T11:57:29.404Z",
+  "features": [
+    {
+      "keyword": "Feature",
+      "name": "Demo",
+      "line": 1,
+      "id": "demo",
+      "tags": [],
+      "uri": "CourseDogAssignment.feature",
+      "elements": [
+        {
+          "id": "demo;to-search-by-\"20-nov-2021\"-date",
+          "keyword": "Scenario",
+          "line": 16,
+          "name": "To Search by \"20-Nov-2021\" date",
+          "tags": [],
+          "type": "scenario",
+          "steps": [
+            {
+              "arguments": [],
+              "keyword": "Given ",
+              "line": 4,
+              "name": "I navigate to the website",
+              "result": {
+                "status": "passed",
+                "duration": 8327000000
+              },
+              "time": "09:03:20.000"
+            },
+            {
+              "arguments": [],
+              "keyword": "When ",
+              "line": 7,
+              "name": "I select a \"20-Nov-2021\" date from the calendar",
+              "result": {
+                "status": "passed",
+                "duration": 2973000000
+              },
+              "time": "09:50:00.000"
+            },
+            {
+              "arguments": [],
+              "keyword": "And ",
+              "line": 8,
+              "name": "I verify \"Tokyo\" events on that day",
+              "result": {
+                "status": "passed",
+                "duration": 2539000000
+              },
+              "time": "09:16:40.000"
+            },
+            {
+              "arguments": [],
+              "keyword": "When ",
+              "line": 9,
+              "name": "I enter \"Tokyo\" keyword in navigation bar",
+              "result": {
+                "status": "passed",
+                "duration": 386000000
+              },
+              "time": "11:13:20.000"
+            },
+            {
+              "arguments": [],
+              "keyword": "And ",
+              "line": 10,
+              "name": "I verify \"Tokyo\" events on that phrase",
+              "result": {
+                "status": "passed",
+                "duration": 54000000
+              },
+              "time": "15:00:00.000"
+            },
+            {
+              "arguments": [],
+              "keyword": "When ",
+              "line": 11,
+              "name": "I select \"Model UN\" organization from FilterbyOrganization dropdown",
+              "result": {
+                "status": "passed",
+                "duration": 240000000
+              },
+              "time": "18:40:00.000"
+            },
+            {
+              "arguments": [],
+              "keyword": "And ",
+              "line": 12,
+              "name": "I verify \"Model UN\" events on that phrase",
+              "result": {
+                "status": "passed",
+                "duration": 999000000
+              },
+              "time": "13:30:00.000"
+            },
+            {
+              "arguments": [],
+              "keyword": "And ",
+              "line": 13,
+              "name": "I verify \"4 total\" count",
+              "result": {
+                "status": "passed",
+                "duration": 45000000
+              },
+              "time": "12:30:00.000"
+            }
+          ],
+          "passed": 8,
+          "failed": 0,
+          "notDefined": 0,
+          "skipped": 0,
+          "pending": 0,
+          "ambiguous": 0,
+          "duration": 15563000000,
+          "time": "03:03:20.000"
+        },
+        {
+          "id": "demo;to-search-by-\"2-sep-2021\"-date",
+          "keyword": "Scenario",
+          "line": 29,
+          "name": "To Search by \"2-Sep-2021\" date",
+          "tags": [],
+          "type": "scenario",
+          "steps": [
+            {
+              "arguments": [],
+              "keyword": "Given ",
+              "line": 4,
+              "name": "I navigate to the website",
+              "result": {
+                "status": "passed",
+                "duration": 11543000000
+              },
+              "time": "14:23:20.000"
+            },
+            {
+              "arguments": [],
+              "keyword": "When ",
+              "line": 20,
+              "name": "I select a \"2-Sep-2021\" date from the calendar",
+              "result": {
+                "status": "passed",
+                "duration": 3020000000
+              },
+              "time": "22:53:20.000"
+            },
+            {
+              "arguments": [],
+              "keyword": "And ",
+              "line": 21,
+              "name": "I verify \"No events found\" events on that day",
+              "result": {
+                "status": "passed",
+                "duration": 1057000000
+              },
+              "time": "05:36:40.000"
+            },
+            {
+              "arguments": [],
+              "keyword": "When ",
+              "line": 22,
+              "name": "I click on Today Events",
+              "result": {
+                "status": "passed",
+                "duration": 292000000
+              },
+              "time": "09:06:40.000"
+            },
+            {
+              "arguments": [],
+              "keyword": "And ",
+              "line": 23,
+              "name": "I verify \"No events found\" events on that day",
+              "result": {
+                "status": "passed",
+                "duration": 49000000
+              },
+              "time": "13:36:40.000"
+            },
+            {
+              "arguments": [],
+              "keyword": "When ",
+              "line": 24,
+              "name": "I click on Featured Events",
+              "result": {
+                "status": "passed",
+                "duration": 266000000
+              },
+              "time": "01:53:20.000"
+            },
+            {
+              "arguments": [],
+              "keyword": "And ",
+              "line": 25,
+              "name": "I verify \"QA Task Submission\" events on that phrase",
+              "result": {
+                "status": "failed",
+                "error_message": "AssertionError: Timed out retrying after 8000ms: Expected to find element: `(//a[contains(@aria-label,'Event name')])[1]`, but never found it.\n    at Context.eval (https://damian-events.coursedog.com/__cypress/tests?p=cypress\\integration\\CourseDogAssignment.feature:74:6)\n    at Context.resolveAndRunStepDefinition (https://damian-events.coursedog.com/__cypress/tests?p=cypress\\integration\\CourseDogAssignment.feature:10525:29)\n    at Context.eval (https://damian-events.coursedog.com/__cypress/tests?p=cypress\\integration\\CourseDogAssignment.feature:9846:35)"
+              }
+            },
+            {
+              "arguments": [],
+              "keyword": "And ",
+              "line": 26,
+              "name": "I verify \"3 total\" count",
+              "result": {
+                "status": "skipped"
+              }
+            }
+          ],
+          "passed": 6,
+          "failed": 1,
+          "notDefined": 0,
+          "skipped": 1,
+          "pending": 0,
+          "ambiguous": 0,
+          "duration": 16227000000,
+          "time": "19:30:00.000"
+        }
+      ],
+      "metadata": {
+        "reportTime": "2022/05/07 11:14:56",
+        "browser": {
+          "name": "chrome",
+          "version": "101"
+        },
+        "device": "Local test machine",
+        "platform": {
+          "name": "Windows",
+          "version": "11"
+        }
+      },
+      "scenarios": {
+        "passed": 1,
+        "failed": 1,
+        "notDefined": 0,
+        "skipped": 0,
+        "pending": 0,
+        "ambiguous": 0,
+        "passedPercentage": "50.00",
+        "failedPercentage": "50.00",
+        "notDefinedPercentage": "0.00",
+        "skippedPercentage": "0.00",
+        "pendingPercentage": "0.00",
+        "ambiguousPercentage": "0.00",
+        "total": 2
+      },
+      "duration": 31790000000,
+      "time": "22:33:20.000",
+      "isFailed": true,
+      "isAmbiguous": false,
+      "isSkipped": false,
+      "isNotdefined": false,
+      "isPending": false,
+      "app": 0,
+      "browser": 0,
+      "failed": null,
+      "totalTime": null
+    },
+    {
+      "keyword": "Feature",
+      "name": "Demo",
+      "line": 1,
+      "id": "demo",
+      "tags": [],
+      "uri": "Demo.feature",
+      "elements": [
+        {
+          "id": "demo;to-search-by-\"20-nov-2021\"-date",
+          "keyword": "Scenario",
+          "line": 16,
+          "name": "To Search by \"20-Nov-2021\" date",
+          "tags": [],
+          "type": "scenario",
+          "steps": [
+            {
+              "arguments": [],
+              "keyword": "Given ",
+              "line": 4,
+              "name": "I navigate to the website",
+              "result": {
+                "status": "passed",
+                "duration": 7959000000
+              },
+              "time": "02:50:00.000"
+            },
+            {
+              "arguments": [],
+              "keyword": "When ",
+              "line": 7,
+              "name": "I select a \"20-Nov-2021\" date from the calendar",
+              "result": {
+                "status": "passed",
+                "duration": 3639000000
+              },
+              "time": "02:50:00.000"
+            },
+            {
+              "arguments": [],
+              "keyword": "And ",
+              "line": 8,
+              "name": "I verify \"Tokyo\" events on that day",
+              "result": {
+                "status": "passed",
+                "duration": 2746000000
+              },
+              "time": "18:46:40.000"
+            },
+            {
+              "arguments": [],
+              "keyword": "When ",
+              "line": 9,
+              "name": "I enter \"Tokyo\" keyword in navigation bar",
+              "result": {
+                "status": "passed",
+                "duration": 362000000
+              },
+              "time": "04:33:20.000"
+            },
+            {
+              "arguments": [],
+              "keyword": "And ",
+              "line": 10,
+              "name": "I verify \"Tokyo\" events on that phrase",
+              "result": {
+                "status": "passed",
+                "duration": 60000000
+              },
+              "time": "16:40:00.000"
+            },
+            {
+              "arguments": [],
+              "keyword": "When ",
+              "line": 11,
+              "name": "I select \"Model UN\" organization from FilterbyOrganization dropdown",
+              "result": {
+                "status": "passed",
+                "duration": 194000000
+              },
+              "time": "05:53:20.000"
+            },
+            {
+              "arguments": [],
+              "keyword": "And ",
+              "line": 12,
+              "name": "I verify \"Model UN\" events on that phrase",
+              "result": {
+                "status": "passed",
+                "duration": 892000000
+              },
+              "time": "07:46:40.000"
+            },
+            {
+              "arguments": [],
+              "keyword": "And ",
+              "line": 13,
+              "name": "I verify \"4 total\" count",
+              "result": {
+                "status": "passed",
+                "duration": 40000000
+              },
+              "time": "11:06:40.000"
+            }
+          ],
+          "passed": 8,
+          "failed": 0,
+          "notDefined": 0,
+          "skipped": 0,
+          "pending": 0,
+          "ambiguous": 0,
+          "duration": 15892000000,
+          "time": "22:26:40.000"
+        },
+        {
+          "id": "demo;to-search-by-\"2-sep-2021\"-date",
+          "keyword": "Scenario",
+          "line": 29,
+          "name": "To Search by \"2-Sep-2021\" date",
+          "tags": [],
+          "type": "scenario",
+          "steps": [
+            {
+              "arguments": [],
+              "keyword": "Given ",
+              "line": 4,
+              "name": "I navigate to the website",
+              "result": {
+                "status": "passed",
+                "duration": 10555000000
+              },
+              "time": "03:56:40.000"
+            },
+            {
+              "arguments": [],
+              "keyword": "When ",
+              "line": 20,
+              "name": "I select a \"2-Sep-2021\" date from the calendar",
+              "result": {
+                "status": "passed",
+                "duration": 3058000000
+              },
+              "time": "09:26:40.000"
+            },
+            {
+              "arguments": [],
+              "keyword": "And ",
+              "line": 21,
+              "name": "I verify \"No events found\" events on that day",
+              "result": {
+                "status": "passed",
+                "duration": 763000000
+              },
+              "time": "19:56:40.000"
+            },
+            {
+              "arguments": [],
+              "keyword": "When ",
+              "line": 22,
+              "name": "I click on Today Events",
+              "result": {
+                "status": "passed",
+                "duration": 253000000
+              },
+              "time": "22:16:40.000"
+            },
+            {
+              "arguments": [],
+              "keyword": "And ",
+              "line": 23,
+              "name": "I verify \"No events found\" events on that day",
+              "result": {
+                "status": "passed",
+                "duration": 50000000
+              },
+              "time": "13:53:20.000"
+            },
+            {
+              "arguments": [],
+              "keyword": "When ",
+              "line": 24,
+              "name": "I click on Featured Events",
+              "result": {
+                "status": "passed",
+                "duration": 293000000
+              },
+              "time": "09:23:20.000"
+            },
+            {
+              "arguments": [],
+              "keyword": "And ",
+              "line": 25,
+              "name": "I verify \"QA Task Submission\" events on that phrase",
+              "result": {
+                "status": "failed",
+                "error_message": "AssertionError: Timed out retrying after 8000ms: Expected to find element: `(//a[contains(@aria-label,'Event name')])[1]`, but never found it.\n    at Context.eval (https://damian-events.coursedog.com/__cypress/tests?p=cypress\\integration\\Demo.feature:74:6)\n    at Context.resolveAndRunStepDefinition (https://damian-events.coursedog.com/__cypress/tests?p=cypress\\integration\\Demo.feature:10525:29)\n    at Context.eval (https://damian-events.coursedog.com/__cypress/tests?p=cypress\\integration\\Demo.feature:9846:35)"
+              }
+            },
+            {
+              "arguments": [],
+              "keyword": "And ",
+              "line": 26,
+              "name": "I verify \"3 total\" count",
+              "result": {
+                "status": "skipped"
+              }
+            }
+          ],
+          "passed": 6,
+          "failed": 1,
+          "notDefined": 0,
+          "skipped": 1,
+          "pending": 0,
+          "ambiguous": 0,
+          "duration": 14972000000,
+          "time": "06:53:20.000"
+        }
+      ],
+      "metadata": {
+        "reportTime": "2022/10/03 17:27:19",
+        "browser": {
+          "name": "chrome",
+          "version": "101"
+        },
+        "device": "Local test machine",
+        "platform": {
+          "name": "Windows",
+          "version": "11"
+        }
+      },
+      "scenarios": {
+        "passed": 1,
+        "failed": 1,
+        "notDefined": 0,
+        "skipped": 0,
+        "pending": 0,
+        "ambiguous": 0,
+        "passedPercentage": "50.00",
+        "failedPercentage": "50.00",
+        "notDefinedPercentage": "0.00",
+        "skippedPercentage": "0.00",
+        "pendingPercentage": "0.00",
+        "ambiguousPercentage": "0.00",
+        "total": 2
+      },
+      "duration": 30864000000,
+      "time": "05:20:00.000",
+      "isFailed": true,
+      "isAmbiguous": false,
+      "isSkipped": false,
+      "isNotdefined": false,
+      "isPending": false,
+      "app": 0,
+      "browser": 0,
+      "failed": null,
+      "totalTime": null
+    }
+  ],
+  "featureCount": {
+    "ambiguous": 0,
+    "failed": 2,
+    "passed": 0,
+    "notDefined": 0,
+    "pending": 0,
+    "skipped": 0,
+    "total": 2,
+    "ambiguousPercentage": "0.00",
+    "failedPercentage": "100.00",
+    "notDefinedPercentage": "0.00",
+    "pendingPercentage": "0.00",
+    "skippedPercentage": "0.00",
+    "passedPercentage": "0.00"
+  },
+  "reportName": "<h3><I>  Cypress Reporter </I></h3>",
+  "scenarios": {
+    "failed": 2,
+    "ambiguous": 0,
+    "notDefined": 0,
+    "pending": 0,
+    "skipped": 0,
+    "passed": 2,
+    "total": 4,
+    "ambiguousPercentage": "0.00",
+    "failedPercentage": "50.00",
+    "notDefinedPercentage": "0.00",
+    "passedPercentage": "50.00",
+    "pendingPercentage": "0.00",
+    "skippedPercentage": "0.00"
+  },
+  "totalTime": 0
+}

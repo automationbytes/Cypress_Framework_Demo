@@ -1,0 +1,404 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Demo",
+    "line": 1,
+    "id": "demo",
+    "tags": [],
+    "uri": "CourseDogAssignment.feature",
+    "elements": [
+      {
+        "id": "demo;to-search-by-\"20-nov-2021\"-date",
+        "keyword": "Scenario",
+        "line": 16,
+        "name": "To Search by \"20-Nov-2021\" date",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I navigate to the website",
+            "result": {
+              "status": "passed",
+              "duration": 8327000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "I select a \"20-Nov-2021\" date from the calendar",
+            "result": {
+              "status": "passed",
+              "duration": 2973000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "I verify \"Tokyo\" events on that day",
+            "result": {
+              "status": "passed",
+              "duration": 2539000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "I enter \"Tokyo\" keyword in navigation bar",
+            "result": {
+              "status": "passed",
+              "duration": 386000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "I verify \"Tokyo\" events on that phrase",
+            "result": {
+              "status": "passed",
+              "duration": 54000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "I select \"Model UN\" organization from FilterbyOrganization dropdown",
+            "result": {
+              "status": "passed",
+              "duration": 240000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "I verify \"Model UN\" events on that phrase",
+            "result": {
+              "status": "passed",
+              "duration": 999000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "I verify \"4 total\" count",
+            "result": {
+              "status": "passed",
+              "duration": 45000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "demo;to-search-by-\"2-sep-2021\"-date",
+        "keyword": "Scenario",
+        "line": 29,
+        "name": "To Search by \"2-Sep-2021\" date",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I navigate to the website",
+            "result": {
+              "status": "passed",
+              "duration": 11543000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 20,
+            "name": "I select a \"2-Sep-2021\" date from the calendar",
+            "result": {
+              "status": "passed",
+              "duration": 3020000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "I verify \"No events found\" events on that day",
+            "result": {
+              "status": "passed",
+              "duration": 1057000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 22,
+            "name": "I click on Today Events",
+            "result": {
+              "status": "passed",
+              "duration": 292000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 23,
+            "name": "I verify \"No events found\" events on that day",
+            "result": {
+              "status": "passed",
+              "duration": 49000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 24,
+            "name": "I click on Featured Events",
+            "result": {
+              "status": "passed",
+              "duration": 266000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 25,
+            "name": "I verify \"QA Task Submission\" events on that phrase",
+            "result": {
+              "status": "failed",
+              "error_message": "AssertionError: Timed out retrying after 8000ms: Expected to find element: `(//a[contains(@aria-label,'Event name')])[1]`, but never found it.\n    at Context.eval (https://damian-events.coursedog.com/__cypress/tests?p=cypress\\integration\\CourseDogAssignment.feature:74:6)\n    at Context.resolveAndRunStepDefinition (https://damian-events.coursedog.com/__cypress/tests?p=cypress\\integration\\CourseDogAssignment.feature:10525:29)\n    at Context.eval (https://damian-events.coursedog.com/__cypress/tests?p=cypress\\integration\\CourseDogAssignment.feature:9846:35)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 26,
+            "name": "I verify \"3 total\" count",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "reportTime": "2022/05/07 11:14:56",
+      "browser": {
+        "name": "chrome",
+        "version": "101"
+      },
+      "device": "Local test machine",
+      "platform": {
+        "name": "Windows",
+        "version": "11"
+      }
+    }
+  },
+  {
+    "keyword": "Feature",
+    "name": "Demo",
+    "line": 1,
+    "id": "demo",
+    "tags": [],
+    "uri": "Demo.feature",
+    "elements": [
+      {
+        "id": "demo;to-search-by-\"20-nov-2021\"-date",
+        "keyword": "Scenario",
+        "line": 16,
+        "name": "To Search by \"20-Nov-2021\" date",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I navigate to the website",
+            "result": {
+              "status": "passed",
+              "duration": 7959000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "I select a \"20-Nov-2021\" date from the calendar",
+            "result": {
+              "status": "passed",
+              "duration": 3639000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "I verify \"Tokyo\" events on that day",
+            "result": {
+              "status": "passed",
+              "duration": 2746000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "I enter \"Tokyo\" keyword in navigation bar",
+            "result": {
+              "status": "passed",
+              "duration": 362000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "I verify \"Tokyo\" events on that phrase",
+            "result": {
+              "status": "passed",
+              "duration": 60000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "I select \"Model UN\" organization from FilterbyOrganization dropdown",
+            "result": {
+              "status": "passed",
+              "duration": 194000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "I verify \"Model UN\" events on that phrase",
+            "result": {
+              "status": "passed",
+              "duration": 892000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "I verify \"4 total\" count",
+            "result": {
+              "status": "passed",
+              "duration": 40000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "demo;to-search-by-\"2-sep-2021\"-date",
+        "keyword": "Scenario",
+        "line": 29,
+        "name": "To Search by \"2-Sep-2021\" date",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I navigate to the website",
+            "result": {
+              "status": "passed",
+              "duration": 10555000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 20,
+            "name": "I select a \"2-Sep-2021\" date from the calendar",
+            "result": {
+              "status": "passed",
+              "duration": 3058000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "I verify \"No events found\" events on that day",
+            "result": {
+              "status": "passed",
+              "duration": 763000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 22,
+            "name": "I click on Today Events",
+            "result": {
+              "status": "passed",
+              "duration": 253000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 23,
+            "name": "I verify \"No events found\" events on that day",
+            "result": {
+              "status": "passed",
+              "duration": 50000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 24,
+            "name": "I click on Featured Events",
+            "result": {
+              "status": "passed",
+              "duration": 293000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 25,
+            "name": "I verify \"QA Task Submission\" events on that phrase",
+            "result": {
+              "status": "failed",
+              "error_message": "AssertionError: Timed out retrying after 8000ms: Expected to find element: `(//a[contains(@aria-label,'Event name')])[1]`, but never found it.\n    at Context.eval (https://damian-events.coursedog.com/__cypress/tests?p=cypress\\integration\\Demo.feature:74:6)\n    at Context.resolveAndRunStepDefinition (https://damian-events.coursedog.com/__cypress/tests?p=cypress\\integration\\Demo.feature:10525:29)\n    at Context.eval (https://damian-events.coursedog.com/__cypress/tests?p=cypress\\integration\\Demo.feature:9846:35)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 26,
+            "name": "I verify \"3 total\" count",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "reportTime": "2022/10/03 17:27:19",
+      "browser": {
+        "name": "chrome",
+        "version": "101"
+      },
+      "device": "Local test machine",
+      "platform": {
+        "name": "Windows",
+        "version": "11"
+      }
+    }
+  }
+]

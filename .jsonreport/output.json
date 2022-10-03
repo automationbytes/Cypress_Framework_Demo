@@ -1,0 +1,66 @@
+{
+  "ApplicationName": "",
+  "ExecutionType": "",
+  "Environment": "",
+  "Features_Total": 2,
+  "Features_Passed": 0,
+  "Features_Failed": 2,
+  "Features_Skipped": 0,
+  "Features_PassedPercentage": "0.00",
+  "Features_FailedPercentage": "100.00",
+  "Features": [
+    {
+      "FeatureName": "Demo",
+      "Scenarios_Count": 2,
+      "Scenarios_Passed_Count": 1,
+      "Scenarios_Failed_Count": 1,
+      "Scenarios_Skipped_Count": 0,
+      "Scenarios_Passed": [
+        "To Search by \"20-Nov-2021\" date"
+      ],
+      "Scenarios_Failed": [
+        {
+          "Failed_ScenarioName": "To Search by \"2-Sep-2021\" date",
+          "Failed_Step": {
+            "Failed_StepName": "And  I verify \"QA Task Submission\" events on that phrase",
+            "Failed_Reason": "AssertionError: Timed out retrying after 8000ms: Expected to find element: `"
+          }
+        }
+      ],
+      "Scenarios_Skipped": [
+        "To Search by \"2-Sep-2021\" date"
+      ]
+    },
+    {
+      "FeatureName": "Demo",
+      "Scenarios_Count": 2,
+      "Scenarios_Passed_Count": 1,
+      "Scenarios_Failed_Count": 1,
+      "Scenarios_Skipped_Count": 0,
+      "Scenarios_Passed": [
+        "To Search by \"20-Nov-2021\" date"
+      ],
+      "Scenarios_Failed": [
+        {
+          "Failed_ScenarioName": "To Search by \"2-Sep-2021\" date",
+          "Failed_Step": {
+            "Failed_StepName": "And  I verify \"QA Task Submission\" events on that phrase",
+            "Failed_Reason": "AssertionError: Timed out retrying after 8000ms: Expected to find element: `"
+          }
+        }
+      ],
+      "Scenarios_Skipped": [
+        "To Search by \"2-Sep-2021\" date"
+      ]
+    }
+  ],
+  "Scenarios_Total": 4,
+  "Scenarios_Passed": 2,
+  "Scenarios_Failed": 2,
+  "Scenarios_Skipped": 0,
+  "Scenarios_PassedPercentage": "50.00",
+  "Scenarios_FailedPercentage": "50.00",
+  "ExecutionStartTime": "",
+  "ExecutionEndTime": "",
+  "TotalExecutionTime": ""
+}

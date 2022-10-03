@@ -1,0 +1,12 @@
+{
+  "chromeWebSecurity": false,
+  "baseUrl": "https://damian-events.coursedog.com/",
+  "pageLoadTimeout": 120000,
+  "defaultCommandTimeout":8000,
+  "testFiles": "**/*.feature",
+  "retries": {
+    "runMode": 1,
+    "openMode": 1
+  }
+}
+
